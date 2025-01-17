@@ -1,6 +1,9 @@
 <script setup lang="ts">
+import PokemonGame from './module/pokemon/pages/PokemonGame.vue';
+
+
 </script>
 
 <template>
-<div class="bg-blue-500 w-full">shi</div>
+<PokemonGame/>
 </template>
