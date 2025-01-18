@@ -12,7 +12,9 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '@pokemon': fileURLToPath(new URL('./src/module/pokemon', import.meta.url)),
+      '@common': fileURLToPath(new URL('./src/module/common', import.meta.url)),
     },
   },
 })
